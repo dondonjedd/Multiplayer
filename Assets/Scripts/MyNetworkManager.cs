@@ -15,6 +15,11 @@ public class MyNetworkManager : NetworkManager
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)
     {
         base.OnServerAddPlayer(conn);
+
+        MyNetworkPlayer player = conn.identity.GetComponent<MyNetworkPlayer>();
+        player.setDisplayName($"Player {numPlayers}");
+        player.setPlayerColor(new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f)));
+
         Debug.Log($"There are {numPlayers} number of players");
     }
 
