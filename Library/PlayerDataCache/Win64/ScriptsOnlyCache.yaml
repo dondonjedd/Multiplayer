@@ -6,7 +6,8 @@ ScriptsOnlyBuild:
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManagerHUD
-    - Mirror.TelepathyTransport
+    - Mirror.NetworkStartPosition
+    - kcp2k.KcpTransport
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -61,6 +62,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEditor.UI.dll:
+    - UnityEditor.UI.CanvasScalerEditor
     UnityEngine.UI.dll:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -97,6 +100,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -106,115 +111,117 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1674}
     - Class: 114
-      Script: {instanceID: 1650}
+      Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 1652}
+      Script: {instanceID: 1678}
     - Class: 114
-      Script: {instanceID: 1654}
+      Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 1740}
+      Script: {instanceID: 1686}
     - Class: 114
-      Script: {instanceID: 1908}
+      Script: {instanceID: 1854}
     - Class: 114
-      Script: {instanceID: 2064}
+      Script: {instanceID: 2344}
     - Class: 114
-      Script: {instanceID: 2398}
+      Script: {instanceID: 2518}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2672}
+      Script: {instanceID: 3408}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3498}
     - Class: 114
-      Script: {instanceID: 3552}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 3630}
+      Script: {instanceID: 3600}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 3738}
+      Script: {instanceID: 3818}
     - Class: 114
-      Script: {instanceID: 3872}
+      Script: {instanceID: 3950}
     - Class: 114
-      Script: {instanceID: 4004}
+      Script: {instanceID: 4306}
     - Class: 114
-      Script: {instanceID: 4360}
+      Script: {instanceID: 4448}
     - Class: 114
-      Script: {instanceID: 4502}
+      Script: {instanceID: 4586}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 4616}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4766}
     - Class: 114
-      Script: {instanceID: 4820}
+      Script: {instanceID: 4846}
     - Class: 114
-      Script: {instanceID: 4900}
+      Script: {instanceID: 4870}
     - Class: 114
-      Script: {instanceID: 4924}
+      Script: {instanceID: 4986}
     - Class: 114
-      Script: {instanceID: 5040}
+      Script: {instanceID: 5056}
     - Class: 114
-      Script: {instanceID: 5110}
+      Script: {instanceID: 5386}
     - Class: 114
-      Script: {instanceID: 5478}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5618}
+      Script: {instanceID: 5564}
     - Class: 114
-      Script: {instanceID: 5702}
+      Script: {instanceID: 5648}
     - Class: 114
-      Script: {instanceID: 5720}
+      Script: {instanceID: 5666}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5728}
     - Class: 114
-      Script: {instanceID: 5790}
+      Script: {instanceID: 5736}
     - Class: 114
-      Script: {instanceID: 6032}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 5980}
     - Class: 114
-      Script: {instanceID: 6054}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6296}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 6428}
     - Class: 114
-      Script: {instanceID: 6638}
+      Script: {instanceID: 6584}
     - Class: 114
-      Script: {instanceID: 6648}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 6742}
+      Script: {instanceID: 6642}
     - Class: 114
-      Script: {instanceID: 6748}
+      Script: {instanceID: 6688}
     - Class: 114
-      Script: {instanceID: 6870}
+      Script: {instanceID: 6694}
     - Class: 114
-      Script: {instanceID: 6904}
+      Script: {instanceID: 6816}
     - Class: 114
-      Script: {instanceID: 6952}
+      Script: {instanceID: 6850}
     - Class: 114
-      Script: {instanceID: 7038}
+      Script: {instanceID: 6898}
     - Class: 114
-      Script: {instanceID: 7152}
+      Script: {instanceID: 6984}
     - Class: 114
-      Script: {instanceID: 7320}
+      Script: {instanceID: 7084}
     - Class: 114
-      Script: {instanceID: 7456}
+      Script: {instanceID: 7100}
     - Class: 114
-      Script: {instanceID: 7516}
+      Script: {instanceID: 7268}
     - Class: 114
-      Script: {instanceID: 8034}
+      Script: {instanceID: 7404}
     - Class: 114
-      Script: {instanceID: 8252}
+      Script: {instanceID: 7464}
     - Class: 114
-      Script: {instanceID: 8614}
+      Script: {instanceID: 7982}
     - Class: 114
-      Script: {instanceID: 8800}
+      Script: {instanceID: 8200}
     - Class: 114
-      Script: {instanceID: 8902}
+      Script: {instanceID: 8562}
     - Class: 114
-      Script: {instanceID: 22538}
+      Script: {instanceID: 8748}
+    - Class: 114
+      Script: {instanceID: 8850}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1584,6 +1591,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: b87b383b814b19b2c6cbf830fdc07726
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyNetworkPlayer
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
@@ -2014,12 +2027,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
     className: NetworkRoomPlayerExt
-  - hash:
-      serializedVersion: 2
-      Hash: b87b383b814b19b2c6cbf830fdc07726
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MyNetworkPlayer
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
